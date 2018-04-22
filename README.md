@@ -37,3 +37,7 @@ Sort by ascending %
 - [OKEx](https://github.com/okcoin-okex/API-docs-OKEx.com)
 - [Huobi](https://github.com/huobiapi/API_Docs_en/wiki)
 - [Bitstamp](https://www.bitstamp.net/fix/)
+
+# decision
+
+- Research exchanges based on [volume](https://coinmarketcap.com/exchanges/volume/24-hour/all/)
