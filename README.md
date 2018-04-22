@@ -7,3 +7,8 @@ Profit using market making
 - Set exchange
 - Get API documentation
 - Set programming language
+
+# exchange-criteria
+
+- No maker fees
+- FIX or WebSocket API
