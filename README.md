@@ -42,6 +42,11 @@ Sort by ascending %
 - [Huobi](https://github.com/huobiapi/API_Docs_en/wiki)
 - [Bitstamp](https://www.bitstamp.net/fix/)
 
+# development-environment
+
+- Editor: [Vim](https://www.vim.org/)
+- C++ test framework: [Google Test](https://github.com/google/googletest)
+
 # test-c++17
 
 ```
