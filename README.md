@@ -8,6 +8,10 @@ Profit using market making
 - Set development environment
 - Stream market data
 
+# entity-relationship-model
+
+![Entity relationship model](https://github.com/vyq/cryptocurrency-trading/blob/master/entity-relationship-model.png)
+
 # exchange-criteria
 
 - No maker fees
