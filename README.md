@@ -38,6 +38,14 @@ Sort by ascending %
 - [Huobi](https://github.com/huobiapi/API_Docs_en/wiki)
 - [Bitstamp](https://www.bitstamp.net/fix/)
 
+# test-c++17
+
+```
+g++ -std=c++1z -o cpp17 cpp17.cpp
+./cpp17
+```
+
 # decision
 
 - Research exchanges based on [volume](https://coinmarketcap.com/exchanges/volume/24-hour/all/)
+- Use [C++17](https://en.wikipedia.org/wiki/C%2B%2B17)
