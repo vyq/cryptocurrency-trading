@@ -53,3 +53,4 @@ g++ -std=c++1z -o cpp17 cpp17.cpp
 
 - Research exchanges based on [volume](https://coinmarketcap.com/exchanges/volume/24-hour/all/)
 - Use [C++17](https://en.wikipedia.org/wiki/C%2B%2B17)
+- Use canonical form when [drawing](https://www.draw.io/) entity relationship model
