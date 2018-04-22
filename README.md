@@ -4,9 +4,9 @@ Profit using market making
 
 # to-do
 
-- Set exchange
-- Get API documentation
-- Set programming language
+- Draw entity relationship diagram
+- Set development environment
+- Stream market data
 
 # exchange-criteria
 
