@@ -44,8 +44,12 @@ Sort by ascending %
 
 # development-environment
 
+- Operating system: [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
 - Editor: [Vim](https://www.vim.org/)
 - C++ test framework: [Google Test](https://github.com/google/googletest)
+  ```
+  git clone https://github.com/google/googletest.git
+  ```
 
 # test-c++17
 
