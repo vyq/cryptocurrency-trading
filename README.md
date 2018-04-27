@@ -4,8 +4,6 @@ Profit using market making
 
 # to-do
 
-- Set development environment
-- [Learn C++](https://www.hackerrank.com/domains/cpp)
 - Stream market data
 
 # entity-relationship-model
