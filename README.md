@@ -60,6 +60,7 @@ g++ -std=c++1z -o cpp17 cpp17.cpp
 - Use [C++17](https://en.wikipedia.org/wiki/C%2B%2B17)
 - Use canonical form when [drawing](https://www.draw.io/) entity relationship model
 - Use [Google C++ style guide](https://google.github.io/styleguide/cppguide.html)
+- Start with BitMEX due to high volume, low maker fees, and 0.1 XBT given in test account
 
 # takeaway
 
