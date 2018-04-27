@@ -63,3 +63,4 @@ g++ -std=c++1z -o cpp17 cpp17.cpp
 # takeaway
 
 - [FIX](https://en.wikipedia.org/wiki/Financial_Information_eXchange) is a communications protocol, not an API
+- Insert a hard tab into [makefile](https://en.wikipedia.org/wiki/Makefile) by pressing Ctrl + V, then Tab
