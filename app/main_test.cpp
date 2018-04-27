@@ -1,4 +1,4 @@
-#include "catch_main.hpp"
+#include "catch_header.hpp"
 
 using namespace std;
 
