@@ -1,2 +1,5 @@
 # Vim swap files
 *.swp
+
+# Binary files
+app/build/*
