@@ -4,7 +4,8 @@ Profit using market making
 
 # to-do
 
-- Stream market data
+- Connect to [BitMEX WebSocket endpoint](https://testnet.bitmex.com/app/wsAPI)
+- Stream XBT/USD market data
 
 # entity-relationship-model
 
