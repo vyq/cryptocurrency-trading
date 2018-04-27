@@ -6,10 +6,9 @@ output_path = app/build/
 
 all: hello_world 010-TestCase
 
-test: hello_world_test
-
-hello_world_test:
+test:
 	$(output_path)hello_world_test
+	$(output_path)010-TestCase
 
 hello_world:
 	$(compiler) $(standard) -I $(include_path) -o $(output_path)hello_world_test scratch/hello_world.cpp scratch/hello_world_test.cpp
