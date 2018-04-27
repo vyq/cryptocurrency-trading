@@ -1,4 +1,4 @@
-#include "catch_header.hpp"
+#include "test_runner.hpp"
 
 using namespace std;
 
