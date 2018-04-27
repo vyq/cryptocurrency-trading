@@ -8,7 +8,7 @@ Profit using market making
 
 # entity-relationship-model
 
-![Entity relationship model](https://github.com/vyq/cryptocurrency-trading/blob/master/entity-relationship-model.png)
+![Entity relationship model](https://github.com/vyq/cryptocurrency-trading/blob/master/asset/entity-relationship-model.png)
 
 # exchange-criteria
 
