@@ -2,6 +2,12 @@
 
 Profit using market making
 
+# return
+
+|Date|Balance (XBT)|Return (%)|
+|-|-|-|
+|2018-04-28|0.1|0|
+
 # to-do
 
 - Connect to [BitMEX WebSocket endpoint](https://testnet.bitmex.com/app/wsAPI)
