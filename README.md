@@ -59,9 +59,14 @@ Sort by ascending %
     ```
   - [uWebSockets](https://github.com/uNetworking/uWebSockets) 
     ```
+    git clone https://github.com/uNetworking/uWebSockets.git
+    cd uWebSockets
     make
-    # cp libuWS.so to app/library/
-    # cp *.h to app/include/uWebSockets/
+    sudo make install
+    cd ../cryptocurrency-trading/app/build
+    ./websocket
+    # Go to localhost:3000 in browser
+    # Should see "Hello!"
     ```
 
 # decision
@@ -84,3 +89,4 @@ Sort by ascending %
 - [FIX](https://en.wikipedia.org/wiki/Financial_Information_eXchange) is a communications protocol, not an API
 - Insert a hard tab into [makefile](https://en.wikipedia.org/wiki/Makefile) by pressing Ctrl + V, then Tab
 - libssl-dev is required to compile libuWS.so
+- libuWS depends on libssl and zlib
