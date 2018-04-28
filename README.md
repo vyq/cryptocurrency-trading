@@ -8,11 +8,6 @@ Profit using market making
 |-|-|-|
 |2018-04-28|0.1|0|
 
-# to-do
-
-- Connect to [BitMEX WebSocket endpoint](https://testnet.bitmex.com/app/wsAPI)
-- Stream XBT/USD market data
-
 # entity-relationship-model
 
 ![Entity relationship model](https://github.com/vyq/cryptocurrency-trading/blob/master/asset/entity-relationship-model.png)
@@ -51,6 +46,11 @@ Sort by ascending %
 
 - Operating system: [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
 - Editor: [Vim](https://www.vim.org/)
+- Language: [C++17](https://en.wikipedia.org/wiki/C%2B%2B17) 
+  ```
+  g++ -std=c++1z -o cpp17 cpp17.cpp
+  ./cpp17
+  ```
 - Test framework: [Catch](https://github.com/catchorg/Catch2)
 - Libraries
   - [OpenSSL](https://github.com/openssl/openssl)
@@ -63,13 +63,6 @@ Sort by ascending %
     # cp libuWS.so to app/library/
     ```
 
-# test-c++17
-
-```
-g++ -std=c++1z -o cpp17 cpp17.cpp
-./cpp17
-```
-
 # decision
 
 - Research exchanges, starting from highest [volume](https://coinmarketcap.com/exchanges/volume/24-hour/all/)
@@ -78,6 +71,11 @@ g++ -std=c++1z -o cpp17 cpp17.cpp
 - Use [Google C++ style guide](https://google.github.io/styleguide/cppguide.html) for consistency
 - Start with BitMEX because of high volume, low maker fees, and 0.1 XBT given in test account
 - Use [uWebSockets](https://github.com/uNetworking/uWebSockets) because of GitHub stars and sponsorship by BitMEX
+
+# to-do
+
+- Connect to [BitMEX WebSocket endpoint](https://testnet.bitmex.com/app/wsAPI)
+- Stream XBT/USD market data
 
 # takeaway
 
