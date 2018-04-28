@@ -61,6 +61,7 @@ Sort by ascending %
     ```
     make
     # cp libuWS.so to app/library/
+    # cp *.h to app/include/uWebSockets/
     ```
 
 # decision
@@ -71,6 +72,7 @@ Sort by ascending %
 - Use [Google C++ style guide](https://google.github.io/styleguide/cppguide.html) for consistency
 - Start with BitMEX because of high volume, low maker fees, and 0.1 XBT given in test account
 - Use [uWebSockets](https://github.com/uNetworking/uWebSockets) because of GitHub stars and sponsorship by BitMEX
+- Use shared library for modularity
 
 # to-do
 
