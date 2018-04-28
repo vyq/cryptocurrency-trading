@@ -1,10 +1,12 @@
 compiler = g++
 standard = -std=c++1z
 source_path = app/
-include_path = app/include/
-library_path = app/library/
-output_path = app/build/
-flags = $(compiler) $(standard) -I$(include_path) -I/usr/include/uWS -L/usr/lib -L$(library_path) -o $(output_path)
+include_flag = -Iapp/include/ -I/usr/include/uWS/
+library_flag = -Lapp/library/ -L/usr/lib/
+output_flag = -o app/build/
+output_path = ./app/build/
+flags = $(compiler) $(standard) $(include_flag) $(library_flag) $(output_flag)
+websocket_flags = -luWS -lssl -lz
 
 all: websocket hello_world 010-TestCase
 
@@ -13,7 +15,7 @@ test:
 	$(output_path)010-TestCase
 
 websocket:
-	$(flags)websocket scratch/websocket.cpp -luWS -lssl -lz
+	$(flags)websocket scratch/websocket.cpp $(websocket_flags)
 
 hello_world:
 	$(flags)hello_world_test scratch/hello_world.cpp scratch/hello_world_test.cpp
