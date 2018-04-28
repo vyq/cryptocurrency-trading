@@ -46,6 +46,16 @@ Sort by ascending %
 - Operating system: [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
 - Editor: [Vim](https://www.vim.org/)
 - Test framework: [Catch](https://github.com/catchorg/Catch2)
+- Libraries
+  - [OpenSSL](https://github.com/openssl/openssl)
+    ```
+    sudo apt install libssl-dev
+    ```
+  - [uWebSockets](https://github.com/uNetworking/uWebSockets) 
+    ```
+    make
+    # cp libuWS.so to app/library/
+    ```
 
 # test-c++17
 
@@ -61,9 +71,10 @@ g++ -std=c++1z -o cpp17 cpp17.cpp
 - Use canonical form when [drawing](https://www.draw.io/) entity relationship model for extensibility
 - Use [Google C++ style guide](https://google.github.io/styleguide/cppguide.html) for consistency
 - Start with BitMEX because of high volume, low maker fees, and 0.1 XBT given in test account
-- Use [μWebSockets](https://github.com/uNetworking/uWebSockets) because of GitHub stars and sponsorship by BitMEX
+- Use [uWebSockets](https://github.com/uNetworking/uWebSockets) because of GitHub stars and sponsorship by BitMEX
 
 # takeaway
 
 - [FIX](https://en.wikipedia.org/wiki/Financial_Information_eXchange) is a communications protocol, not an API
 - Insert a hard tab into [makefile](https://en.wikipedia.org/wiki/Makefile) by pressing Ctrl + V, then Tab
+- libssl-dev is required to compile libuWS.so
