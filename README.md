@@ -81,8 +81,9 @@ Sort by ascending %
 
 # to-do
 
-- Connect to [BitMEX WebSocket endpoint](https://testnet.bitmex.com/app/wsAPI)
-- Stream XBT/USD market data
+- Test `hub.onMessage()` using Catch
+- Research uWS event loop
+- Subscribe to XBT/USD market data
 
 # takeaway
 
