@@ -8,14 +8,18 @@ output_path = ./app/build/
 flags = $(compiler) $(standard) $(include_flag) $(library_flag) $(output_flag)
 websocket_flags = -luWS -lssl -lz
 
-all: clean websocket hello_world 010-TestCase
+all: clean bitmex websocket hello_world 010-TestCase
 
 test:
+	$(output_path)bitmex
 	$(output_path)hello_world_test
 	$(output_path)010-TestCase
 
 clean:
 	rm $(output_path)*
+
+bitmex:
+	$(flags)bitmex $(source_path)bitmex.cpp $(source_path)bitmex_test.cpp $(websocket_flags)
 
 websocket:
 	$(flags)websocket scratch/websocket.cpp $(websocket_flags)
