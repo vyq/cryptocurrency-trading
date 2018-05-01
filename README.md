@@ -85,6 +85,7 @@ Sort by ascending %
 - Check https://discordapp.com/channels/415851350384181248/415851470571962388
 - Research uWS event loop
 - Subscribe to XBT/USD market data
+- Measure cycle time to place order and get order identifier
 
 # takeaway
 
