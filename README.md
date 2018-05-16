@@ -79,6 +79,13 @@ Sort by ascending %
 - Use [uWebSockets](https://github.com/uNetworking/uWebSockets) because of GitHub stars and sponsorship by BitMEX
 - Use shared library for modularity
 
+# takeaway
+
+- [FIX](https://en.wikipedia.org/wiki/Financial_Information_eXchange) is a communications protocol, not an API
+- Insert a hard tab into [makefile](https://en.wikipedia.org/wiki/Makefile) by pressing Ctrl + V, then Tab
+- libssl-dev is required to compile libuWS.so
+- libuWS depends on libssl and zlib
+
 # to-do
 
 - Test `hub.onMessage()` using Catch
@@ -86,10 +93,3 @@ Sort by ascending %
 - Research uWS event loop
 - Subscribe to XBT/USD market data
 - Measure cycle time to place order and get order identifier
-
-# takeaway
-
-- [FIX](https://en.wikipedia.org/wiki/Financial_Information_eXchange) is a communications protocol, not an API
-- Insert a hard tab into [makefile](https://en.wikipedia.org/wiki/Makefile) by pressing Ctrl + V, then Tab
-- libssl-dev is required to compile libuWS.so
-- libuWS depends on libssl and zlib
