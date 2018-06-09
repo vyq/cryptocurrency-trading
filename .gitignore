@@ -1,5 +1,8 @@
 # Vim swap files
 *.swp
 
-# Binary files
+# Build files
 app/build/*
+
+# Output files
+*.out
