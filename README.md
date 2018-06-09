@@ -48,7 +48,7 @@ Sort by ascending %
 - Editor: [Vim](https://www.vim.org/)
 - Language: [C++17](https://en.wikipedia.org/wiki/C%2B%2B17) 
   ```
-  g++ -std=c++1z -o cpp17 cpp17.cpp
+  g++-8 -std=c++17 -o cpp17 cpp17.cpp
   ./cpp17
   ```
 - Test framework: [Catch](https://github.com/catchorg/Catch2)

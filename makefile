@@ -1,5 +1,5 @@
-compiler = g++
-standard = -std=c++1z
+compiler = g++-8
+standard = -std=c++17
 
 source_path = app/
 output_path = ./app/build/
@@ -19,6 +19,9 @@ test:
 
 clean:
 	rm $(output_path)*
+
+b:
+	$(flags)b scratch/b.cpp $(websocket_flag)
 
 bitmex:
 	$(flags)bitmex $(source_path)bitmex.cpp $(source_path)bitmex_test.cpp $(websocket_flag)
